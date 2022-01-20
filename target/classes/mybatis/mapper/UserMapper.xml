@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhj.manghe.mapper.UserMapper">
+
+    <!-- 用户登录 用户名或者用户邮箱登录 -->
+    <select id="getLoginUser" resultType="com.yhj.manghe.bean.User">
+        select * from user where
+        username=#{username} or email=#{username}
+        and password=#{password}
+    </select>
+
+
+
+</mapper>

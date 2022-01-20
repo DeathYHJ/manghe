@@ -1,0 +1,23 @@
+/* 实线1px 宽400px 高400px  左浮动 */
+.login1{
+    border:1px solid;
+    width:400px;
+    height: 320px;
+    margin: 0px 0px 0px 300px;
+    float: left;
+}
+/* 内上边距20 实线1px 宽400px 高300px 文本居中 右浮动 */
+.login2{
+    padding-top: 20px;
+    border:1px solid;
+    width:400px;
+    height: 300px;
+    text-align: center;
+    margin: 0px 300px 0px 0px;
+    float: right;
+}
+
+.header{
+    border:1px solid;
+    height: 200px;
+}
